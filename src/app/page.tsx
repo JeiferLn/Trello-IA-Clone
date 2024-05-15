@@ -1,9 +1,12 @@
-import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hola</h1>
+      <Header />
+
+      {/* Board */}
+      <h1>Trello AI Clone App</h1>
     </main>
   );
 }
